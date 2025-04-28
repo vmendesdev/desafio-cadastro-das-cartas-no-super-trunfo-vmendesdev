@@ -1,4 +1,12 @@
-# 🃏 Super Trunfo - Cadastro de Cartas (Nível Novato)
+# 🃏 Super Trunfo - Cadastro de Cartas 
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Projeto%20em-C-blue.svg" alt="Projeto em C" />
+  <img src="https://img.shields.io/badge/Nível-Iniciante-green.svg" alt="Nível Iniciante" />
+  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen.svg" alt="Status Concluído" />
+</div>
+
+---
 
 Bem-vindo ao projeto **Super Trunfo - Cidades**, desenvolvido como parte do desafio proposto pela **Estácio de Sá**!  
 Este repositório apresenta a solução para o nível **Novato**, focado no cadastro das cartas do jogo no tema **Países e Cidades**.
@@ -102,10 +110,16 @@ As próximas evoluções podem incluir:
 
 ---
 
-## ✨ Autor
+## 👩‍💻 Autora
 
-| [<img src="https://avatars.githubusercontent.com/u/your-profile-id?v=4" width="100px"/>](https://github.com/vmendesdev) |
-|:---:|
-| [@vmendesdev](https://github.com/vmendesdev) |
+Desenvolvido com 💻❤️ por **Vanessa Melo Mendes**.
+
+- GitHub: [@vmendesdev](https://github.com/vmendesdev)
 
 ---
+
+> Este projeto faz parte do meu portfólio pessoal e demonstra habilidades práticas em lógica de programação, estruturas de decisão e desenvolvimento de aplicações em C.
+
+---
+
+# 🏆 Obrigado por visitar meu projeto!
