@@ -1,83 +1,111 @@
-# ⚠️ Importante!!!
-Criamos um novo link para o primeiro desafio porque o link original apresentou problemas. Quem já completou o desafio pode continuar usando o link original para enviar seu repositório. Se você ainda não começou o desafio, utilize o novo link.
+# 🃏 Super Trunfo - Cadastro de Cartas (Nível Novato)
 
-# Desafio Super Trunfo - Países - Cadastro das Cartas
-
-Bem-vindo ao desafio "Super Trunfo - Países"! No jogo Super Trunfo, os jogadores comparam as propriedades das cartas para determinar a mais forte. O tema deste Super Trunfo é "Países," onde você comparará as propriedades das cidades.
-
-A empresa MateCheck contratou você para desenvolver a parte inicial do jogo, que consiste no cadastro das cartas.
-
-O desafio está dividido em três níveis: Novato, Aventureiro e Mestre, com cada nível adicionando mais complexidade ao anterior. Você deve escolher qual desafio quer realizar.
-
-### 🚨 Atenção: 
-O nível Novato do desafio é focado apenas no cadastro das cartas, utilizando as funções scanf para ler os dados e printf para exibi-los.
-
-## 🎮 Nível Novato
-
-No nível Novato, você iniciará criando o sistema básico do jogo Super Trunfo com o tema "Países". As cartas serão divididas por estados, cada um com quatro cidades. 
-
-Cada país será dividido em oito estados, identificados pelas letras de A a H. Cada estado terá quatro cidades, numeradas de 1 a 4. A combinação da letra do estado e o número da cidade define o código da carta (por exemplo, A01, A02, B01, B02).
-
-### 🚩 Objetivo:
-- Criar cartas representando cidades, contendo as seguintes propriedades:
-  - **População**
-  - **Área**
-  - **PIB**
-  - **Número de pontos turísticos**
-  
-### ⚙️ Funcionalidades do Sistema:
-- O sistema permitirá ao usuário cadastrar cartas de cidades, inserindo manualmente os dados via terminal de comando.
-- Após o cadastro, o sistema exibirá os dados de cada cidade de forma clara e organizada.
-
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário insere os dados de cada carta interativamente.
-- Após o cadastro, os dados são exibidos com todas as propriedades da cidade, uma por linha.
+Bem-vindo ao projeto **Super Trunfo - Cidades**, desenvolvido como parte do desafio proposto pela **Estácio de Sá**!  
+Este repositório apresenta a solução para o nível **Novato**, focado no cadastro das cartas do jogo no tema **Países e Cidades**.
 
 ---
 
-## 🛡️ Nível Aventureiro
+## 📚 Sobre o Projeto
 
-No nível Aventureiro, você expandirá o sistema para incluir propriedades calculadas, permitindo uma análise mais detalhada das cartas.
-
-### 🆕 Diferença em relação ao Nível Novato:
-- **Novas Propriedades Calculadas:**
-  - **Densidade Populacional:** População dividida pela área da cidade.
-  - **PIB per Capita:** PIB total dividido pela população.
-
-### ⚙️ Funcionalidades do Sistema:
-- O sistema agora calculará automaticamente a Densidade Populacional e o PIB per Capita com base nos dados inseridos.
-- Essas novas propriedades serão adicionadas às informações exibidas para cada cidade.
-
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário continua inserindo os dados de cada carta interativamente.
-- O sistema exibirá os dados, incluindo as novas propriedades calculadas, de forma clara e organizada.
+O projeto implementa um sistema que:
+- Permite o **cadastro de cartas** representando cidades.
+- Cada carta contém informações como:
+  - Estado
+  - Código da carta (Ex: A01, B03)
+  - Nome da cidade
+  - População
+  - Área (em km²)
+  - PIB
+  - Número de pontos turísticos
+- Após o cadastro, o sistema exibe todas as informações cadastradas, de forma clara e organizada.
 
 ---
 
-## 🏆 Nível Mestre
+## 🎯 Desafios Propostos (Nível Novato)
 
-No nível Mestre, você implementará comparações entre as cartas, utilizando operadores relacionais e manipulando grandes números com precisão.
+O desafio "Super Trunfo - Cadastro das Cartas" para o nível Novato exigia:
 
-### 🆕 Diferença em relação ao Nível Aventureiro:
-- **Comparação de Cartas:**
-  - O sistema permitirá ao usuário comparar duas cartas com base nas propriedades inseridas e calculadas.
-  - Cada carta terá um "Super Poder", que é a soma de todas as propriedades.
-  
-### ⚙️ Funcionalidades do Sistema:
-- O sistema utilizará operadores relacionais para determinar a carta vencedora com base nas propriedades comparadas.
-- A comparação considerará:
-  - **Densidade Populacional:** Vence a carta com menor valor.
-  - **Outras Propriedades:** Vence a carta com maior valor.
-- O resultado das comparações será exibido claramente para cada propriedade.
-
-### 📥 Entrada e 📤 Saída de Dados:
-- O usuário insere as cartas a serem comparadas.
-- O sistema exibe os resultados das comparações, indicando a carta vencedora para cada propriedade.
+- **Criar uma estrutura** (`struct`) para armazenar os dados das cidades.
+- **Cadastrar 32 cidades** manualmente, usando `scanf` para entrada de dados.
+- **Exibir as informações** de cada carta após o cadastro.
+- Utilizar boas práticas como:
+  - Organização do código
+  - Modularização por funções
+  - Comentários explicativos
 
 ---
 
-Ao concluir todos os níveis, você terá criado um sistema incial para o jogo Super Trunfo, com funcionalidades de cadastro, cálculo e comparação de propriedades. 
+## ⚙️ Funcionalidades Desenvolvidas
 
-Boa sorte e divirta-se programando!
+- **Cadastro de cartas**  
+  O programa solicita interativamente ao usuário os dados de cada cidade e armazena na memória.
 
-Equipe de Ensino - MateCheck
+- **Exibição das cartas**  
+  Após o cadastro de todas as cidades, o programa lista todas as informações cadastradas.
+
+- **Validação de entrada**  
+  Cada leitura de entrada (`scanf`) verifica se os dados foram inseridos corretamente.
+
+- **Estrutura de Dados**  
+  Utilização de `struct` para organizar melhor as propriedades de cada cidade.
+
+---
+
+## 🛠️ Como Executar o Projeto
+
+**1. Clonar o repositório:**
+
+```bash
+git clone https://github.com/vmendesdev/desafio-cadastro-das-cartas-no-super-trunfo-vmendesdev.git
+cd desafio-cadastro-das-cartas-no-super-trunfo-vmendesdev
+```
+
+**2. Compilar o código:**
+
+```bash
+gcc CartasSuperTrunfo.c -o CartasSuperTrunfo.exe
+```
+
+**3. Executar:**
+
+```bash
+CartasSuperTrunfo.exe
+```
+
+---
+
+## 📋 Estrutura do Código
+
+- `typedef struct` → Definição da estrutura `CartaCidade`.
+- `cadastrarCarta()` → Função para receber os dados da cidade via terminal.
+- `exibirCarta()` → Função para mostrar os dados formatados na tela.
+- `main()` →  
+  - Laço para cadastro das 32 cartas.  
+  - Laço para exibição de todas as cartas cadastradas.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- Linguagem C
+- Compilador GCC
+- Terminal (para interação usuário-sistema)
+
+---
+
+## 📈 Evoluções Futuras
+
+Este projeto é a primeira etapa do desafio Super Trunfo.  
+As próximas evoluções podem incluir:
+- Cálculo de densidade populacional e PIB per capita (Nível Aventureiro)
+- Comparação de cartas e super poderes (Nível Mestre)
+
+---
+
+## ✨ Autor
+
+| [<img src="https://avatars.githubusercontent.com/u/your-profile-id?v=4" width="100px"/>](https://github.com/vmendesdev) |
+|:---:|
+| [@vmendesdev](https://github.com/vmendesdev) |
+
+---
